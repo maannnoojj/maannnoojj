@@ -139,56 +139,6 @@ fun_fact:    into coding & sports
 
 <br/>
 
-## ```> contribution_graph --animate```
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/maannnoojj/maannnoojj/output/github-contribution-grid-snake.svg" width="100%"/>
-
-<sub>Animated snake needs a one-time GitHub Action — see setup note below ⬇️</sub>
-
-</div>
-
-<details>
-<summary>⚙️ How to enable the animated contribution snake</summary>
-
-<br/>
-
-1. In your `maannnoojj/maannnoojj` repo, add `.github/workflows/snake.yml` with:
-
-```yaml
-name: generate animated snake
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch: {}
-  push:
-    branches: [ main ]
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: maannnoojj
-          outputs: dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-2. Commit it — the action generates the SVG on a schedule and the image above will populate automatically once the `output` branch exists.
-
-</details>
-
-<br/>
 
 ## ```> connect --all```
 
