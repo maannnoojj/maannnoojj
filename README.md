@@ -38,7 +38,7 @@ fun_fact:    into coding & sports
 - 🛠️ Building **[JARVIS](https://github.com/maannnoojj/JARVIS)** — a smart meeting assistant that automates scheduling, agendas, and follow-ups
 - 💬 Ask me about **networking, React, and security basics**
 - 📫 Reach me at **iammanojms2006@gmail.com**
-- 🌐 Portfolio: **[manojmsportfolio.edgeone.app](https://manojmsportfolio.edgeone.app/#)**
+- 🌐 Portfolio: **[manojmsportfoliodev.ercel.app](https://manojmsdev.vercel.app/)**
 - 📄 Resume: **[github.com/maannnoojj/resume-](https://github.com/maannnoojj/resume-)**
 
 <br/>
