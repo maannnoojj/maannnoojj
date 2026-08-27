@@ -24,7 +24,7 @@ building:    JARVIS (AI meeting assistant)
 open_to:     Collaboration on Agri Assist AI
 ask_me:      Networking, React, Security Basics
 contact:     iammanojms2006@gmail.com
-portfolio:   manojmsportfolio.edgeone.app
+portfolio:   //manojmsdev.vercel.app/
 fun_fact:    into coding & sports
 ```
 
